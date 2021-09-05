@@ -1,0 +1,27 @@
+name: bingo
+version: 1.0
+author: rgtarrr
+main: me.rgtarrr.Main
+api-version: 1.16
+load: STARTUP
+commands:
+  loadworld:
+    description: create a world from list of seeds
+    usage: /<command>
+  start:
+    description: start the game
+    usage: /<command>
+  randombingo:
+    description: another random bingo
+    usage: /<command>
+  bingo:
+    description: material names of items from bingo
+    usage: /<command>
+  setup:
+    description: setup
+    usage: /<command>
+  gametype:
+    description: choose game type
+    usage: /<command> SINGLE|BINGO
+depend:
+  - "WorldEdit"
